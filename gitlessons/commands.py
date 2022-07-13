@@ -25,5 +25,10 @@ git push <origin> <branch_name(main)>
 git push origin main
 
 
-
-ffdsf
+-------------------------------------
+1. git init
+2. git branch -M main
+3. git add .
+4. git commit -m '<comment>'
+5. git remote add origin <url>
+6. git push origin main
