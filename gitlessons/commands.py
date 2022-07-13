@@ -12,4 +12,17 @@ git add . - добавляет все в текущей директории в 
 
 git commit -m '<comment>'
 
-4. 
+4. git repome add - это команда для того чтобы связать ваш локальный репозиторий с удаленным репозиторием  (репо в гитхабе)
+
+git remote add <connection_title> <link_to_repo>
+
+git remote add origin <url>
+
+5. git push - после коммита изменений при помощи этой команды мы отправляем наши изменения в файлах на удаленный репозиторий.
+
+git push <origin> <branch_name(main)>
+
+git push origin main
+
+
+
